@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "math.js",
+  "type": "module",
   "dependencies": {},
   "devDependencies": {
+    "chai": "^4.2.0",
+    "nyc": "^15.1.0",
     "mocha": "^8.2.1"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "coverage": "nyc npm run test"
   },
   "author": "",
   "license": "ISC"
